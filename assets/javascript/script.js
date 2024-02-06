@@ -21,7 +21,9 @@ function randomDogImage() {
     fetch('https://api.thedogapi.com/v1/images/search')
     .then(response => response.json())
     .then((data) => {
-        document.getElementById('dog-photo').innerHTML = `<img src="${data[0].url}" alt="Random Dog Photo">`;
+        const dogImg = document.getElementById('dog-img');
+        dogImg.src = data[0].url;
+        dogImg.alt = 'Random Dog Photo';
     })
     .catch(error => {
         console.error('Error fetching dog photo: ', error);
