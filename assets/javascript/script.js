@@ -1,3 +1,6 @@
+var newJoke = document.getElementById('joke-container');
+var newDog = document.getElementById('dog-img');
+
 function randomDadJoke() {
     
     fetch('https://icanhazdadjoke.com/', {
@@ -31,3 +34,12 @@ function randomDogImage() {
 }
 
 randomDogImage();
+
+
+newJoke.addEventListener('click', function() {
+    randomDadJoke();
+});
+
+newDog.addEventListener('click', function() {
+    randomDogImage();
+});
