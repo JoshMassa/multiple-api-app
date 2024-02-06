@@ -16,6 +16,18 @@ function randomDadJoke() {
 
 randomDadJoke();
 
+
 function randomDogImage() {
-    
+    fetch('https://api.thedogapi.com/v1/images/search')
+    .then(response => response.json())
+    .then((data) => {
+        const dogImg = document.getElementById('dog-img');
+        dogImg.src = data[0].url;
+        dogImg.alt = 'Random Dog Photo';
+    })
+    .catch(error => {
+        console.error('Error fetching dog photo: ', error);
+    });
 }
+
+randomDogImage();
