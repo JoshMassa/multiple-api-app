@@ -16,7 +16,6 @@ body {
     max-width: 600px;
     background-color: aquamarine;
     padding: 50px;
-    border-radius: 10px;
 }
 
 #dog-img {
@@ -38,9 +37,8 @@ body {
     margin-top: 50px;
     height: 600px;
     width: 600px;
-    border-radius: 10px;
-    border: 5px dotted lightblue;
-    justify-content: center;
+    border: 1px solid blue;
+    justify-content: space-between;
     margin: 0 auto;
     margin-bottom: 50px;
     align-items: center;
@@ -63,12 +61,10 @@ header {
     margin-bottom: 50px;
 }
 
-
 p {
     font-family: 'Indie Flower','monaco', 'Lucida Console';
     font-size: 23px;
 }
-
 
 #click {
     font-size: 10px;
