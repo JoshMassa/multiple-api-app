@@ -51,13 +51,6 @@ body {
 #dog-photo:hover,
 #joke-container:hover {
     cursor: pointer;
-    color: hotpink;
-    text-shadow:0px 0px 30px hotpink;
-    -moz-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-    -webkit-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;
-  box-shadow: 10px 10px 5px yellow;
 }
 
 h3 {
@@ -70,6 +63,19 @@ header {
 
 #click {
     font-size: 10px;
+}
+
+#dog-img:hover {
+    transform: scale(0.95);
+}
+
+#dad-joke:hover {
+    color: hotpink;
+    text-shadow:0px 0px 30px hotpink;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 @media screen and (min-width: 400px) and (max-width: 425px) {
