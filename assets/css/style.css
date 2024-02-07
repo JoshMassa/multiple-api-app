@@ -5,9 +5,7 @@
 }
 
 #dog-photo {
-    min-height: 600px;
     max-height: 600px;
-    min-width: 600px;
     max-width: 600px;
     background-color: aquamarine;
     padding: 50px;
@@ -20,41 +18,29 @@
     max-height: 500px;
 }
 
+#dog-container {
+    margin-top: 50px;
+}
+
 #joke-container {
     display: flex;
-    flex-direction: column;
+    margin-top: 50px;
     height: 600px;
     width: 600px;
     border: 1px solid blue;
-    justify-content: center;
-    margin: 0 auto;
-    margin-bottom: 50px;
+    align-items: center;
     text-align: center;
     padding: 0 30px 0 30px;
     font-family: 'Indie Flower','monaco', 'Lucida Console';
     font-size: 35px;
 }
 
+<<<<<<< HEAD
 p {
     font-family: 'Indie Flower', cursive;
+=======
+p{
+    font-family: 'Indie Flower','monaco', 'Lucida Console';
+>>>>>>> ff6e7e4b4aa791d3f670478e9fa21b74d29cde71
     font-size: 22px;
-}
-
-#dog-container:hover,
-#joke-container:hover {
-    cursor: pointer;
-}
-
-h3 {
-    font-size: 40px;
-}
-
-header {
-    margin-bottom: 50px;
-}
-
-#dog-container {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
 }
