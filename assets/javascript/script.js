@@ -43,3 +43,15 @@ newJoke.addEventListener('click', function() {
 newDog.addEventListener('click', function() {
     randomDogImage();
 });
+
+//Code for custom Modal
+document.addEventListener("DOMContentLoaded", function() {
+    var customModal = document.getElementById("modal");
+    customModal.style.display = 'block';
+});
+
+document.addEventListener('click', function() {
+    var customModal = document.getElementsByClassName("modal");
+    customModal.style.display = "none";
+    }
+);

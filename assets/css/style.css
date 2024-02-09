@@ -46,7 +46,7 @@ body {
     text-align: center;
     padding: 30px;
     font-family: 'Indie Flower','monaco', 'Lucida Console';
-    font-size: 34px;
+    font-size: 30px;
     border-radius: 15px;
 }
 
@@ -85,6 +85,145 @@ p {
     transition: all 0.2s ease-in;
 }
 
+#modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    max-width: 450px;
+    max-height: 275px;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: skyblue;
+    color: black;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px 5px black;
+    z-index: 1000;
+}
+
+#modal button {
+    justify-content: center;
+    margin: 24px 0 0 130px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+#modal button:hover {
+    background-color: lightgrey;
+}
+
+#modal p {
+    margin-bottom: 20px;
+}
+
+span {
+    font-size: 30px;
+    text-align: right;
+    margin-right: 15px;
+}
+
+.modal p {
+    text-align: center;
+    font-size: 12px;
+}
+
+.modal input {
+    margin-bottom: 10px;
+    width: 65%;
+    margin: 0 auto;
+    background-color: transparent;
+    text-align: center;
+    border: none;
+    border-bottom: solid 3px rgba(15, 15, 15, 0.1);
+    padding: 5px;
+    outline: 0 none;
+}
+
+.modal input:hover {
+    border-color: aquamarine;
+}
+
+.modal-content {
+    background-color: lightgrey;
+    height: 165px;
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    #joke-container {
+        width: 500px;
+        height: 500px;
+    }
+
+    #dog-photo {
+        min-height: 500px;
+        max-height: 500px;
+        min-width: 500px;
+        max-width: 500px;
+        padding: 50px;
+    }
+    
+    #dog-img {
+        min-width: 400px;
+        max-width: 400px;
+        min-height: 400px;
+        max-height: 400px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 575px) {
+    #joke-container {
+        width: 400px;
+        height: 400px;
+    }
+
+    #dog-photo {
+        min-height: 400px;
+        max-height: 400px;
+        min-width: 400px;
+        max-width: 400px;
+        padding: 50px;
+    }
+    
+    #dog-img {
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 300px;
+        max-height: 300px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    #modal p {
+        padding: 0 10px;
+        margin-bottom: 0;
+    }
+
+    #modal {
+        max-width: 375px;
+        max-height: 275px;
+    }
+
+    #modal button {
+        margin-left: 90px;
+    }
+}
+
 @media screen and (min-width: 400px) and (max-width: 425px) {
     #joke-container {
         width: 375px;
@@ -108,6 +247,32 @@ p {
         max-width: 275px;
         min-height: 275px;
         max-height: 275px;
+    }
+
+    #modal {
+        max-width: 300px;
+        max-height: 275px;
+    }
+
+    #modal p {
+        margin: 0 10px;
+        font-size: 10px;
+    }
+
+    #modal button {
+        margin-left: 55px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    #username {
+        font-size: 14px;
     }
 }
 
@@ -148,7 +313,30 @@ p {
         font-size: 26px;
     }
 
-    header {
-        font-size: 12px;
+    header p {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    #modal {
+        max-width: 300px;
+        max-height: 275px;
+    }
+
+    #modal p {
+        font-size: 10px;
+        margin-bottom: 5px;
+        padding: 0 5px;
+    }
+
+    #username {
+        font-size: 14px;
+    }
+
+    #modal button {
+        margin-left: 55px;
     }
 }
