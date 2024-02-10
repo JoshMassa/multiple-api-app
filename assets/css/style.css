@@ -119,9 +119,25 @@ p {
 }
 
 span {
+    display: flex;
+    justify-content: end;
     font-size: 30px;
     text-align: right;
     margin-right: 15px;
+}
+
+span div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 20px;
+    margin: 10px 0;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+span div:hover {
+    cursor: pointer;
 }
 
 .modal p {
@@ -148,6 +164,12 @@ span {
 .modal-content {
     background-color: lightgrey;
     height: 165px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1015px) {
+    #greeting {
+        font-size: 17px;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
@@ -184,6 +206,7 @@ span {
     #joke-container {
         width: 400px;
         height: 400px;
+        font-size: 20px;
     }
 
     #dog-photo {
@@ -268,7 +291,7 @@ span {
     }
 
     h1 {
-        font-size: 28px;
+        font-size: 26px;
     }
 
     #username {
@@ -309,16 +332,14 @@ span {
         font-size: 8px;
     }
 
-    h1 {
-        font-size: 26px;
-    }
-
     header p {
-        font-size: 14px;
+        font-size: 12px;
+        line-height: 1.8;
+        margin-bottom: 0;
     }
 
     h1 {
-        font-size: 28px;
+        font-size: 21px;
     }
 
     #modal {
