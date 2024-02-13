@@ -17,7 +17,7 @@
   <body>
     <header class="p-3 text-white bg-info">
       <h1 class="text-center">✨ ThE sMiLe gEneRaToR ✨</h1>
-      <p class="text-center">Hey you! Want to get a smile out of your day? Well you've found the right place! 
+      <p class="text-center" id="greeting">Hey you! Want to get a smile out of your day? Well you've found the right place! 
         <br> Please enjoy our smile generator as much as you'd like.</p>
     </header>
 
@@ -41,11 +41,13 @@
 
     <div id="modal" class="modal">
       <div class="modal-content">
-        <span class="close">&times;</span>
+        <span>
+          <div id="close">&times;</div>   
+          </span>
         <p>Hey! We noticed this is your first time visiting our webpage. I hope you're ready for some smiles! Please enter your name below for a custom greeting!</p>
-        <input type="text" id="username">
+        <input type="text" id="username" autocomplete="off">
       </div>
-      <button onclick="submitName()">Submit</button>
+      <button id="submit">Submit</button>
     </div>
 
     <script
