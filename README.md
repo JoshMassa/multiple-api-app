@@ -36,9 +36,9 @@
     * GitBash
 
 ## Usage
-To view this webpage, please visit 
+To view this webpage, please visit https://joshmassa.github.io/smile-generator/
 
-To view this projects repository, please visit 
+To view this projects repository, please visit https://github.com/JoshMassa/smile-generator
 
 When viewed from a desktop, the webpage should resemble the following image:
 
