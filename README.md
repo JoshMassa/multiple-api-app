@@ -1,7 +1,7 @@
 # Smile Generator
 
 ## Overview
-    * As a user, you will have the ability to view random jokes and pictures. Once on the website, you will be presented with a random joke and photo. The user interface is designed so that simply clicking on a joke or a photo will randomly generate a new one.
+   * As a user, you will have the ability to view random jokes and pictures. Once on the website, you will be presented with a random joke and photo. The user interface is designed so that simply clicking on a joke or a photo will randomly generate a new one.
 
 ## Features
 
@@ -42,15 +42,16 @@ To view this projects repository, please visit
 
 When viewed from a desktop, the webpage should resemble the following image:
 
-![Desktop View](./assets/)
+![Desktop View](./assets/desktop-view.png)
+![Desktop View](./assets/desktop-view-modal.png)
 
 When viewed from a tablet, the webpage should resemble the following image:
 
-![Tablet View](./assets/)
+![Tablet View](./assets/tablet-view.png)
 
 When viewed from a mobile device, the webpage should resemble the following image:
 
-![Mobile View](./assets/)
+![Mobile View](./assets/mobile%20view.png)
 
 ## Credits
 
